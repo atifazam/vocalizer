@@ -1,0 +1,40 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+.vocalizer {
+	position: relative;
+	display: inline-block;
+	margin-right: 12px;
+}
+.vocalizer:after {
+	font-family: FontAwesome;
+	font-size: 9px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	content: "\f028";
+	color: #fff;
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	right: -16px;
+	width: 16px;
+	height: 16px;
+	border-radius: 30px;
+	padding: 0;
+	border: none;
+	background: center center #cccccc no-repeat;
+	transition: 0.1s background-color ease-out;
+	background-size: 10px;
+	vertical-align: top;
+	-webkit-appearance: none;
+}
+.vocalizer:hover:after {
+	background-color: #ffc562;
+	transition: 0.25s background-color ease-in;
+}
+.vocalizer:active:after {
+	background-color: #ccc;
+}
+.vocalizer:focus:after {
+	outline: none;
+}
