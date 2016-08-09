@@ -3,14 +3,18 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Vocalizer Examples</title>
+	<title>Vocalizer Usage Examples</title>
 	<link rel="stylesheet" href="vendor/vocalize.min.css">
 	<style type="text/css">
 		body {
 			font-family: -apple-system, sans-serif;
 			font-size: 16px;
 			color: #424242;
-			background-color: #caf8ff;
+			background-color: #EE5757;
+		}
+		a {
+			text-decoration: none;
+			color: #ddd;
 		}
 		.wrapper {
 			width: 80%;
@@ -19,27 +23,35 @@
 			padding: 5% 0 0 0;
 		}
 		.example {
-			font-size: 48px;
+			font-size: 44px;
+			color: #fff;
 			font-weight: bold;
+			line-height: 1.4;
+			text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 			margin: 1em 0;
 		}
-		.plug {
+		.follow {
 			position: absolute;
-			right: 1em;
+			right: 1.5em;
 			top: 1em;
-			font-size: 12px;
-			font-weight: normal;
+			font-size: 9px;
+			text-align: right;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: bold;
 		}
 	</style>
 </head>
 <body>
 	<div class="wrapper">
-		<div class="example example1">Hello! My name is Admiral <span class="vocalizer" data-source="auto">Akbar</span>
-		<div class="example example1">This is how you say the name, <span class="vocalizer" data-source="auto">Anaïs</span>
-		<div class="example example1"><span class="vocalizer" data-source="auto">Atif</span> sure is a beautiful name.</div>
+		<div class="example example1">Hello! My name is Admiral <span class="vocalizer" data-source="auto">Akbar</span>.</div>
+		<div class="example example1">I have a friend whose name is <span class="vocalizer" data-source="auto">Anais</span>.</div>
+		<div class="example example1"><span class="vocalizer" data-source="auto">Achilles</span> was a great warrior.</p></div>
+		<div class="example example1">Can you say the name <span class="vocalizer" data-source="auto">Ahmed?</span></div>
+		</div>
 	</div>
-	<div class="plug">
-		Created by @atifazm.
+	<div class="follow">
+		<p>Created by <a href="http://atifaz.am">Atif Azam</a></p>
 		<a href="https://twitter.com/atifazm" class="twitter-follow-button" data-show-count="true">Follow @atifazm</a>
 		<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	</div>

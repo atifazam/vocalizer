@@ -6,7 +6,7 @@
 
 	for (var i = 0; i < name.length; i++) {
 		var data_source = name[i].getAttribute("data-source");
-		names[i] = name[i].innerHTML.toLowerCase().replace(/\W/g,'');
+		names[i] = name[i].innerHTML.toLowerCase().replace(/\W/g,'')
 		var request = buildRequests(names[i]);
 		fetchAudio(data_source, request, i);
 	}
@@ -23,10 +23,12 @@
 			xhr.onload = function (e) {
 				if (xhr.readyState === 4) {
 				    if (xhr.status === 200) {
-				      var audioPath = JSON.parse(xhr.responseText).message[names[i]][i]["path"];								
+				      var audioPath = JSON.parse(xhr.responseText).message[names[i]][0]["path"];
+				      console.log(JSON.parse(xhr.responseText));								
 				      var audio = new Audio(BASE_URL+audioPath+'.mp3');
-				      var btn = document.getElementsByClassName('vocalizer');
-				      btn[i].addEventListener('click', function() {
+				      audio.playbackRate = 0.75;
+				      var name = document.getElementsByClassName('vocalizer');
+				      name[i].addEventListener('click', function() {
 				      	audio.play();
 				      }, false);
 				    } else {
@@ -49,4 +51,5 @@
 			}, false);
 		}
 	}
+
 })();

@@ -1,24 +1,28 @@
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
 .vocalizer {
 	position: relative;
 	display: inline-block;
 	margin-right: 12px;
 }
 .vocalizer:after {
-	font-family: FontAwesome;
-	font-size: 9px;
-	line-height: 1.5;
+	font-family: "Material Icons";
+	text-shadow: none;
+	font-size: 0.25em;
+	text-align: center;
+	line-height: 1.8;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	content: "\f028";
+	content: "\e050";
 	color: #fff;
+	opacity: 0.88;
 	display: block;
 	cursor: pointer;
+	cursor: hand;
 	position: absolute;
-	top: 5px;
-	right: -16px;
-	width: 16px;
-	height: 16px;
+	top: 0.8em;
+	right: -1.9em;
+	width: 1.75em;
+	height: 1.75em;
 	border-radius: 30px;
 	padding: 0;
 	border: none;
@@ -30,7 +34,8 @@
 }
 .vocalizer:hover:after {
 	background-color: #ffc562;
-	transition: 0.25s background-color ease-in;
+	opacity: 1;
+	transition: 0.25s all ease-in;
 }
 .vocalizer:active:after {
 	background-color: #ccc;
