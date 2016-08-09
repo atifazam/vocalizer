@@ -11,4 +11,4 @@ The `data-source` parameter has two options:
 - `auto` : The audio will automatically be generated. Note: If this doesn't work, it might mean your name doesn't exist in the database. Go [here](https://www.nameshouts.com/) to double-check.
 - `manual` : Manually set the path to your own audio file. For example: `<span class="vocalizer" data-source="audio/name.mp3">`.
 
-Preset audio records are provided by the [Nameshouts API](https://www.nameshouts.com/).
+Preset audio recordings are provided by the [Nameshouts API](https://www.nameshouts.com/).
