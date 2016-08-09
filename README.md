@@ -3,7 +3,7 @@
 
 Here's how to get it working:
 
-1. Download and and include `vocalizer.min.js` and `vocalizer.min.css` into your website. Include `vocalizer.min.js` right before your `</body>` tag.
+1. Download and and include `vocalizer.min.js` and `vocalizer.min.css` into your website. Include `vocalizer.min.js` right before your closing `</body>` tag.
 2. Wrap your first name in a `span` tag like this: `<span class="vocalizer" data-source="auto">YOUR NAME</span>`.
 3. That's it!
 
