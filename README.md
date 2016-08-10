@@ -1,5 +1,5 @@
 # Vocalizer
-### A super simple javascript plugin to show people how to say your name correctly.
+### A super simple javascript plugin to help others say your name correctly.
 
 **Here's how to get it working:**
 
