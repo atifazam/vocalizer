@@ -7,7 +7,7 @@
 2. Wrap your first name in a `span` tag like this: `<span class="vocalizer" data-source="auto">YOUR NAME</span>`.
 3. That's it!
 
-The `data-source` parameter has two options:
+The `data-source` attribute has two parameter options:
 - `auto` : The audio will automatically be generated. Note: If this doesn't work, it might mean your name doesn't exist in the database. Go [here](https://www.nameshouts.com/) to double-check.
 - `path/to/file` : Manually set the path to your own audio file. For example: `<span class="vocalizer" data-source="audio/name.mp3">`.
 
