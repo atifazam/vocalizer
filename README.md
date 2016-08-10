@@ -1,7 +1,7 @@
 # Vocalizer
 ### A super simple javascript plugin to show people how to say your name correctly.
 
-![vocalizer](http://atifaz.am/images/posts/vocalizer-show-people-how-to-pronounce-your-name/vocalizer.jpg)
+![vocalizer](http://atifaz.am/images/posts/vocalizer-show-people-how-to-pronounce-your-name/vocalizer.jpg?423)
 
 Here's how to get it working:
 
