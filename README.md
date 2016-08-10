@@ -14,3 +14,6 @@ The `data-source` attribute has two parameter options:
 Preset audio recordings are provided by the [Nameshouts API](https://www.nameshouts.com/).
 
 ![vocalizer](http://atifaz.am/images/posts/vocalizer-show-people-how-to-pronounce-your-name/vocalizer.jpg?423)
+
+### Question, feature suggestions, or issues?
+If so, please [file an issue](https://github.com/atifazam/vocalizer/issues).
