@@ -5,7 +5,7 @@
 
 1. Download and and include `vocalizer.min.js` and `vocalizer.min.css` into your website. Include `vocalizer.min.js` right before the closing `</body>` tag.
 2. Wrap your first name in a `span` tag like this: `<span class="vocalizer" data-source="auto">YOUR NAME</span>`.
-3. That's it! You can read the backstory of this idea [here](http://atifaz.am/blog/vocalizer-help-others-pronounce-your-name-correctly.html).
+3. That's it! You can read the backstory on this idea [here](http://atifaz.am/blog/vocalizer-help-others-pronounce-your-name-correctly.html).
 
 The `data-source` attribute has two parameter options:
 - `auto` : The audio will automatically be generated. *Note: If this doesn't work, it might mean your name doesn't exist in the database. Go [here](https://www.nameshouts.com/) and search the name to double-check. If it isn't there you'll have to use your own audio file.*
