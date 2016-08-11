@@ -15,5 +15,5 @@ Preset audio recordings are provided by the [Nameshouts API](https://www.namesho
 
 ![vocalizer](http://atifaz.am/images/posts/vocalizer-show-people-how-to-pronounce-your-name/vocalizer.jpg?423)
 
-### Question, feature suggestions, or issues?
+### Questions, comments, suggestions, issues?
 If so, please [file an issue](https://github.com/atifazam/vocalizer/issues).
