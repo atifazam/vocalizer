@@ -37,6 +37,3 @@ jspm_packages
 .node_repl_history
 
 .DS_Store
-
-vendor/vocalizer.js
-vendor/vocalizer.css
