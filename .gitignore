@@ -38,5 +38,7 @@ jspm_packages
 
 .DS_Store
 
+vendor/vocalizer.js
+vendor/vocalizer.css
 vocalizer.js
 vocalizer.css
