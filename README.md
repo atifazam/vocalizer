@@ -3,7 +3,7 @@
 
 **Here's how to get it working:**
 
-1. Download and include `vocalizer.min.js` into your website. Or just include it via CDN: `https://cdnjs.cloudflare.com/ajax/libs/vocalizer/1.0.0/vocalizer.min.js`
+1. Download and include `vocalizer.min.js` into your website. Or just include it via CDN: `<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vocalizer/1.0.0/vocalizer.min.js"></script>`.
 2. Wrap your first name in a `span` tag like this: `<span class="vocalizer" data-source="auto">YOUR NAME</span>`.
 3. That's it! You can read the backstory on this idea [here](http://atifaz.am/blog/vocalizer-help-others-pronounce-your-name-correctly.html).
 
