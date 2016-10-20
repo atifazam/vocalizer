@@ -1,4 +1,4 @@
-# Vocalizer
+# Vocalizer [![CDNJS](https://img.shields.io/cdnjs/v/vocalizer.svg)](https://cdnjs.com/libraries/vocalizer)
 ### A super simple javascript plugin to help others say your name correctly.
 
 **Here's how to get it working:**
