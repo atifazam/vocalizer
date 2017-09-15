@@ -4,7 +4,7 @@
 **Here's how to get it working:**
 
 1. Download and include `vocalizer.min.js` into your website. Or just include it via CDN:
-`<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vocalizer/1.0.0/vocalizer.min.js" data-api-key="API Key"></script>`.
+`<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vocalizer/1.0.0/vocalizer.min.js"></script>`.
 2. Wrap your first name in a `span` tag like this: `<span class="vocalizer" data-source="auto" data-lang="English">YOUR NAME</span>`.
 3. That's it! You can read the backstory on this idea [here](http://atifaz.am/blog/vocalizer-help-others-pronounce-your-name-correctly.html).
 
@@ -13,8 +13,6 @@ The `data-source` attribute has two parameter options:
 - `path/to/file` : Manually set the path to your own audio file. For example: `<span class="vocalizer" data-source="audio/name.mp3">`.
 
 The optional `data-lang` attribute let you select the language used for the pronunciation, by entering the full language name.
-
-The optional `data-api-key` let you specify the API key for NameShouts directly in the html.
 
 Preset audio recordings are provided by the [Nameshouts API](https://www.nameshouts.com/).
 
