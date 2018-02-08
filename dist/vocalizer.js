@@ -6,7 +6,7 @@
         nameshouts: {
             queryBase: 'https://www.nameshouts.com/api/names/',
             mediaBase: 'https://www.nameshouts.com/libs/media/',
-            token: (document.currentScript.getAttribute('api-key') === null) ? "SW27BxK23K0RQf7nOB32BxVdmXET98Au" : document.currentScript.getAttribute('data-api-key'),
+            token: "SW27BxK23K0RQf7nOB32BxVdmXET98Au",
         },
         vocalizerIO: {
             queryBase: 'https://www.vocalizer.io/audio-url/',
@@ -127,7 +127,6 @@
     }
 
     function playAudioList(audioList) {
-        console.log(audioList);
         audioList[0].play();
         if (audioList.length > 1) {
             audioList[0].addEventListener("ended", function () {

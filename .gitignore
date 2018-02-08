@@ -37,3 +37,11 @@ jspm_packages
 .node_repl_history
 
 .DS_Store
+
+.idea/modules.xml
+
+.idea/vcs.xml
+
+.idea/workspace.xml
+
+.idea/vocalizer.iml
